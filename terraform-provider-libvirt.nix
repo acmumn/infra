@@ -8,11 +8,11 @@ buildGoModule rec {
   src = pkgs.fetchFromGitHub {
     owner = "knownunown";
     repo = "terraform-provider-libvirt";
-    rev = "main";
+    rev = "snapshot_copy_and_network_v2";
     # sha256 = lib.fakeHash;
-    sha256 = "sha256-44BC+Qu+rhuAk9YVCmCB8//s3nVHZHpHpmJhiVqCiag=";
+    sha256 = "sha256-Tvv8FpS1vqIrDIw8vJuCxBII4kpGAAAPHgFOI94Iddc=";
   };
-  vendorSha256 = "sha256-Rbnw6HyrQGtiIA4toUMoyJydpgK0T4zEXg39ReqARlg=";
+  vendorSha256 = "sha256-GejAQB67sBssrWgQ5FaVN53Ibbb0CXkJxn/OTzUhpwE=";
 
   /*
   terraform-provider-libvirt> running tests
